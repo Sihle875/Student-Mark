@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Student Marks Entry Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Student marks entry</h1>
+        <p>
+            Enter student details below.
+        </p>
+        <form action="StudentMarksServlet.do" method="POST">
+            <table>
+                <tr>
+                    <td>Student name: </td>
+                    <td><input type="text" name="name" required=""></td>
+                </tr>
+                <tr>
+                    <td>Predicate mark: </td>
+                    <td><input type="text" name="predicate" required=""></td>
+                </tr>
+                <tr>
+                    <td>Exam mark: </td>
+                    <td><input type="text" name="examMark" required=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="SUBMIT"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
